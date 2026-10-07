@@ -17,7 +17,7 @@ This folder is a working space, not software. It holds the **AI Strategy Brief**
   - Tests: Cases 1 to 3 passed; Cases 4 and 5 failed, then passed on rerun **as you report**. Recommendation: **Fix**, then your report that the Chief Claims Officer approved routine use and two other teams.
 
 ## 2. What we have done
-Twenty-seven activities, from project set-up to the handoff check, all marked Reviewed (listed in section 3). The roadmap, value thesis, operating model, adoption plan, design spec, requirements, test set, handoff check and Workflow Package are complete. **Not done yet:** support and maintenance, and the final recommendation for sponsors and partners.
+Twenty-nine activities, from project set-up to the AI Strategy Brief, all marked Reviewed (listed in section 3). The roadmap, value thesis, operating model, adoption plan, design spec, requirements, test set, handoff check and Workflow Package are complete. **Not done yet:** support and maintenance, and the final recommendation for sponsors and partners.
 
 ## 3. Activities in sequence
 Dates are from the files' own status lines. "Created" is the file-system date; some files were rewritten later, so it can be later than the first draft.
@@ -49,9 +49,12 @@ Dates are from the files' own status lines. "Created" is the file-system date; s
 | 23 | Test set (five cases) | [test-set.md](test-set.md) | 2026-10-06 | 2026-10-06 |
 | 24 | Recommend Introduce, Fix or Stop (Fix) | section in [requirements.md](requirements.md) | 2026-10-06 | 2026-10-06 |
 | 25 | Handoff gap check | [handoff-gaps.md](handoff-gaps.md) | 2026-10-06 | 2026-10-06 |
-| 26 | Workflow Package | [workflow-package.md](workflow-package.md) | 2026-10-06 | 2026-10-06 |
+| 26 | Workflow Package (v2 revised 2026-10-07) | [workflow-package.md](workflow-package.md) | 2026-10-06 | v1: 2026-10-06; v2: 2026-10-07 |
 | 27 | Handoff check of the Workflow Package | [handoff-check.md](handoff-check.md) | 2026-10-07 | 2026-10-07 |
-| 28 | This summary | README.md | 2026-10-07 | n/a |
+| 28 | Material gaps audit | [material-gaps-audit.md](material-gaps-audit.md) | 2026-10-07 | 2026-10-07 |
+| 29 | AI Strategy Brief (final recommendation) | [ai-strategy-brief.md](ai-strategy-brief.md) | 2026-10-07 | 2026-10-07 |
+| 30 | Leadership roadmap presentation | [leadership-presentation.md](leadership-presentation.md) | 2026-10-07 | Draft |
+| 31 | This summary | README.md | 2026-10-07 | n/a |
 | — | **Support and maintenance** | not started | | |
 | — | **Final recommendation to sponsors and partners** | not started | | |
 
@@ -105,7 +108,8 @@ The conversation transcripts (`*.jsonl`, six sessions since 2026-09-23) sit in t
 - **Handoff (25 to 27):** what the receiving teams still need, the package to give them, and a check of the package from their side (12 gaps, 5 blocking).
 
 ## 7. Still open
-- **To draft:** support and maintenance; the final recommendation.
+- **To draft:** support and maintenance; the final recommendation (the Brief). Stakeholder: Chief Claims Officer; ask: a decision to expand beyond two teams (confirmed 2026-10-07).
+- **Audit findings:** eight material gaps in [material-gaps-audit.md](material-gaps-audit.md). Resolve 1, 2, 4 and 5 before the Brief; assign 3 and 6; carry 7 and 8 forward.
 - **Handoff check gaps:** five blocking gaps (tool and access route, start conditions, approval status line, ownership for the receiving teams, support route) and seven others, in [handoff-check.md](handoff-check.md). The package itself hasn't been revised.
 - **Receiving teams:** names, and a lead to describe their current flow.
 - **Tests and requirements:** the untested requirements; the final-decision wording requirement; pass criteria and targets.

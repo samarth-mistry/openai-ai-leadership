@@ -1,13 +1,13 @@
 # Workflow Package: Routine policyholder correspondence
 
-**Status: Reviewed** (approved by the user, 2026-10-06). v1. Suggestions and unconfirmed responsibilities keep their labels. For the two receiving teams. Sources: Reviewed handoff check, 30/60/90 adoption plan, Design Spec, requirements, test set, Operating Model, value thesis and your answers. **Suggested** and **unconfirmed** items are labelled. Section 6's introduction outline uses the format you chose (a combination of my suggestions) and the barrier you named (workflow fit).
+**Status: Reviewed** (v2 approved by the user, 2026-10-07; v1 was Reviewed 2026-10-06). Revised 2026-10-07 to reflect your report that the workflow has moved from the pilot to two teams, has been introduced to them, and has been tested further with them. Suggestions and unconfirmed responsibilities keep their labels. For the two receiving teams. Sources: Reviewed handoff check, 30/60/90 adoption plan, Design Spec, requirements, test set, Operating Model, value thesis and your answers. **Suggested** and **unconfirmed** items are labelled. Section 6's introduction outline uses the format you chose (a combination of my suggestions) and the barrier you named (workflow fit).
 
 ## 1. Purpose and intended users
 - **Who it is for:** claims handlers in the two receiving teams: similar teams in a different region and office. The teams aren't named, and that their flow matches the pilot's is an **Assumption**.
 - **When to use it:** after a claim decision is approved, for a routine policyholder letter.
 - **What it should improve:** letters reach policyholders sooner than the pilot's median of 2.4 business days after approval, while the handler still verifies every detail and approves every letter. The receiving teams' own baseline is **not recorded**.
 - **Not for:** conflict, legal or unusual cases; replies to policyholder concerns; end-of-day updates; policy lookup; sending letters automatically without human approval.
-- **Approved scope:** routine use by two other teams, as you report the Chief Claims Officer approved. No wider use is approved.
+- **Current scope (as reported 2026-10-07):** the workflow has moved from the pilot to two teams, which have been introduced to it, with the Chief Claims Officer's approval (date and form not recorded). **No wider use is approved**; expansion beyond two teams is the pending decision.
 
 ## 2. Instructions and resources
 **Access:** ask the Enterprise Applications Administrator for access and configuration. In the pilot, 14 handlers were denied access; the fix is unconfirmed.
@@ -78,9 +78,12 @@
 
 - **Known limitations:** no draft text or evidence recorded for the results; the Case 4 and 5 reruns are unevidenced; untested requirements; no pass criteria or targets; compliance review assumed quick.
 - **Open actions:** name the receiving teams; set targets and provisional pass criteria; run or waive the untested requirements; decide on the final-decision wording requirement; set the thresholds for "big" and "anomalous"; settle error accountability; agree how approvals are logged; get the Architect's written findings; measure approval-to-send days; set the plan start date.
+- **Further testing with the two teams (as reported 2026-10-07):** the cases, results, testers and dates are **not stated**. No pass or fail is recorded, and the Not run tests above stay Not run until results are supplied.
 - **Decisions and approvals:** all project documents are Reviewed (2026-10-06). Recommendation recorded: Fix, then your report that the reruns passed. The Chief Claims Officer's approval of routine use and two other teams is as you report; its date and form aren't recorded. **Expansion beyond two teams is not approved.**
 
 ## 6. Introduction and ongoing review
+**Reported 2026-10-07:** the two teams have been introduced to the workflow. The format actually used, dates and attendance are **not recorded**. The outline below was the suggested plan. Keep it as the reference, and update it with what was actually done.
+
 **Introduction outline** (suggestions, for you to accept or change)
 - **Audience and stage:** claims handlers in the two receiving teams, **Not Started (Assumption; you named the barrier but didn't confirm the stage)**.
 - **Primary barrier: workflow fit (your expectation, not evidence).** The risk is that the receiving teams' templates, systems or referral routes differ from the pilot's, so the workflow doesn't match how they work.
@@ -101,7 +104,7 @@
 
 | Level | Measures | Status |
 |---|---|---|
-| **First Use** (people try it) | Handlers who have used it at least once; access problems raised and closed | **Not yet available** for the receiving teams |
+| **First Use** (people try it) | Handlers who have used it at least once; access problems raised and closed | **Not recorded** for the receiving teams (introduced as reported; no usage data supplied) |
 | **Repeat Use** (people return) | Handlers using it more than once, by week | Pilot: 26 of 40. **Not yet available** for the receiving teams |
 | **Work Change** | Median drafting time; wording revisions | Pilot: 18 to 11 minutes (sampled). **Not yet available** for the receiving teams |
 | **Business Impact** | Business days from approval to send against 2.4; complaints (correctness); policyholder feedback (frustration); cost | **Not available.** Baselines for the receiving teams, and for cost, complaints and frustration, aren't recorded |
@@ -115,3 +118,13 @@
 - **Decisions:** Revise, Pause, Stop, Continue, Expand. You decide within scope; the Chief Claims Officer decides on resources and further expansion.
 
 **Maintenance, and when to change or retest:** retest the affected cases when a template, the workflow or the permitted data rules change; when a pass criterion changes; when a new failure appears; and for each receiving team's region if its referral rules differ. The Workflow owner approves changes.
+
+## Handoff check status (2026-10-07)
+From [handoff-check.md](handoff-check.md) (Reviewed). Only what your report changes:
+
+| Gap | Status after your report |
+|---|---|
+| 2 Start timing | Moot as a plan: the teams are reported as introduced. The actual order (access, walkthrough, practice) is **not recorded** |
+| 3 Approval status | Now stated in section 1 and 5: moved from the pilot to two teams, as reported. Untested requirements still Not run |
+| 1 Tool and access route; 5 Receiving-team owner; 6 Support route | **Still open.** Nothing supplied |
+| 4, 7 to 12 | **Still open** |
